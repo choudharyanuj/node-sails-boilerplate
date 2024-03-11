@@ -1,6 +1,6 @@
 #!/bin/bash
-imageName=imagecrew-node-service-production
-containerName=imagecrew-node-service-production
+imageName=node-sails-boilerplate
+containerName=node-sails-boilerplate
 
 sudo docker build -t $imageName  . -f ./production.Dockerfile
 

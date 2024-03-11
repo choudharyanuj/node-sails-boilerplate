@@ -1,6 +1,6 @@
 #!/bin/bash
-imageName=node-sails-service-development
-containerName=node-sails-service-development
+imageName=node-sails-boilerplate
+containerName=node-sails-boilerplate
 
 sudo docker build -t $imageName  . -f ./dev.Dockerfile
 
